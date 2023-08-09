@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+.container-1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.frame{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apple{
+    width: 14px;
+    height: 18px;
+    margin: 14px 7px 8px 2px;
+    
+}
+.txt a {
+    color: #424242;   
+    padding: 15px; 
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    margin: 11px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.trade-in  {
+    width: 100%;
+    height: 50px;
+    background-color: #e0e5eb63;
+    text-align: center;
+    padding-top: 13px;
+    font-size:  14px;
+    margin-bottom: 30px;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.box-1 {
+    width: 64%;
+}
+
+.new {
+    color: #bf4800;
+}
+h1 {
+    font-size: 40px;
+}
+
+.txt {
+    margin-top: 16px;
+    font-size: 14px;
+    margin-bottom: 46px;
+}
+
+.iphone-pics-1 {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+    position: sticky ;
+    top: 20%;
+}
+
+.iphone-pics-1 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+
+
+
+.plus {
+    width: 13px;
+    height: 13px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: #424242 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+
+.plus:hover {
+    background-color: black;
+    color: white;   
+}
+
+.cont-3 {
+    width: 36%;
+    display: flex;
+    justify-content: end;
+}
+
+.box-2 {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    margin-bottom: 114px;
+}
+.button-1 {
+    width: 70%;
+    height: 39px;
+    border: none;
+    border-radius: 19px;
+    background-color: #e0e5eb63;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.button-2 {
+    width: 80%;
+    height: 39px;
+    border: none;
+    border-radius: 19px;
+    background-color: #e0e5eb63;
+    display: flex;
+    justify-content: center;
+    margin-top: -14px;
+    padding-top: 10px;
+    font-size: 12px;
+    
+}
+
+.txt-1 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.cont-4 {
+    width: 94%;
+    height: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.model-txt {
+    font-size: 24.7px;
+    margin-bottom: 12.2px;
+}
+
+.model-txt b {
+    color: #86868b;
+}
+
+
+.model {
+    width: 100%;
+    height: 108px;
+    border: #86868b solid 1.2px;
+    border-radius: 14px;
+    margin-top: 15px; 
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.left-side h3 {
+    font-size: 19px;
+}
+
+.left-side p {
+    font-size: 12.4px;
+    color: #2c2c2f;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.right-side p {
+    font-size: 12.4px;
+    color: #2c2c2f;
+}
+
+.help {
+    width: 100%;
+    height: 88px;
+    border-radius: 14px;
+    margin-top: 15px; 
+    background-color: #e0e5eb63;
+    margin-bottom: 50px;
+}
+.df {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.finish-txt {
+    font-size: 24.7px;
+    margin-bottom: 12.2px;
+    margin-bottom:44px;
+}
+
+.finish-txt b {
+    color: #86868b;
+}
+
+.color {
+    font-size: 19px;
+    font-weight: bolder;
+
+}
+.circle {
+    gap: 10px;
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 199px;
+} 
+
+.deep-purple {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: rgb(69, 0, 69);
+}
+.gold {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: rgb(168, 146, 39);
+}
+.silver {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: silver;
+}
+.space-black {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: black;
+}
