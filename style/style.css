@@ -287,3 +287,68 @@ h1 {
     border-radius: 50%;
     background-color: black;
 }
+
+.cont-5 {
+    width: 78%;
+    height: 68px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e0e5eb63;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.d5 {
+    display: flex;
+}
+
+.cont-5 div p {
+    font-size: 11.8px;
+}
+
+.cont-5 div img {
+    width: 26px;
+    height: 28px;
+    
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.4); 
+    display: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+.modal {
+    background: white;
+    width: 800px;
+    height: fit-content;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    z-index: 1;
+    translate: -50% -50%;
+    border-radius: 23px;
+}
+
+.cont-6 {
+    width: 96%;
+    height: 670px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.modal_exit {
+    background: transparent;
+    border: none;
+}
+
+.modal_section_1 {
+    text-align: center;
+}
+
+.modal-btns {
+    display: flex;
+}
